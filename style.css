@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #0f172a;
+  color: white;
+}
+
+/* Header */
+header {
+  background: #1e293b;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  background: #020617;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background: #22c55e;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #16a34a;
+}
+
+/* Sections */
+section {
+  display: none;
+  padding: 20px;
+}
+
+.active {
+  display: block;
+}
+
+/* Hidden answers */
+.hidden {
+  display: none;
+}
+
+/* Inputs */
+input {
+  padding: 8px;
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #1e293b;
+  margin-top: 20px;
+}body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #0f172a;
+  color: white;
+}
+
+header {
+  background: #1e293b;
+  padding: 15px;
+  text-align: center;
+}
+
+nav button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  background: #38bdf8;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+section {
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #38bdf8;
+}
+
+button {
+  background: #22c55e;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+}

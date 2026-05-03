@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>StudyHub - Learn Science Easily</title>
+
+  <meta name="description" content="StudyHub helps students learn Chemistry, Physics, and Biology with notes, exercises, and exams.">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+
+<header>
+  <h1>📘 StudyHub</h1>
+  <p>Your Science Learning Platform</p>
+</header>
+
+<nav>
+  <button onclick="showSection('home')">Home</button>
+  <button onclick="showSection('subjects')">Subjects</button>
+  <button onclick="showSection('exercises')">Exercises</button>
+  <button onclick="showSection('exams')">Exams</button>
+</nav>
+
+<main>
+
+<section id="home" class="active">
+  <h2>Welcome</h2>
+  <p>Select a subject and start learning with notes, exercises, and exams.</p>
+</section>
+
+<section id="subjects">
+  <h2>Subjects</h2>
+
+  <h3>Chemistry</h3>
+  <p>Matter, atoms, reactions, periodic table.</p>
+
+  <h3>Physics</h3>
+  <p>Motion, forces, energy, electricity.</p>
+
+  <h3>Biology</h3>
+  <p>Cells, human body, plants, genetics.</p>
+</section>
+
+<section id="exercises">
+  <h2>Exercises</h2>
+
+  <p><b>Question:</b> What is the chemical symbol for water?</p>
+  <button onclick="toggleAnswer('ans1')">Show Answer</button>
+  <p id="ans1" class="hidden">H₂O</p>
+
+  <p><b>Question:</b> What force pulls objects to Earth?</p>
+  <button onclick="toggleAnswer('ans2')">Show Answer</button>
+  <p id="ans2" class="hidden">Gravity</p>
+
+</section>
+
+<section id="exams">
+  <h2>Mini Exam</h2>
+
+  <p>1. What is 2 + 2?</p>
+  <input type="text" id="q1">
+
+  <p>2. What planet do we live on?</p>
+  <input type="text" id="q2">
+
+  <button onclick="submitExam()">Submit</button>
+
+  <p id="result"></p>
+</section>
+
+</main>
+
+<footer>
+  <p>© 2026 StudyHub</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
